@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command NewFamilySymbolProfile</Text>
+    <Description>Some description for NewFamilySymbolProfile</Description>
+    <Assembly>NewFamilySymbolProfile.dll</Assembly>
+    <FullClassName>NewFamilySymbolProfile.Command</FullClassName>
+    <ClientId>5f271abb-6311-4eda-90d3-30ae2b9d4cf8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
