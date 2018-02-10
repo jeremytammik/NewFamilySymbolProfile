@@ -73,7 +73,7 @@ namespace NewFamilySymbolProfile
       {
         using( Transaction tx = new Transaction( doc ) )
         {
-          tx.Start( "Create Sweep" );
+          tx.Start( "Create FamilySymbolProfile" );
           fsp = app.Create.NewFamilySymbolProfile( 
             profile_symbol );
           tx.Commit();
